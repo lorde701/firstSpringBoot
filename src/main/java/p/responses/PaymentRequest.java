@@ -1,4 +1,4 @@
-package requests;
+package p.responses;
 
 import lombok.Getter;
 import lombok.Setter;

@@ -1,11 +1,8 @@
-package controllers;
+package p.controllers;
 
 import org.springframework.web.bind.annotation.*;
-import requests.PaymentRequest;
-import responses.BaseResponse;
-
-import java.time.LocalTime;
-import java.util.function.Consumer;
+import p.responses.PaymentRequest;
+import p.requests.BaseResponse;
 
 @RestController
 @RequestMapping("/payment")
